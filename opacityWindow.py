@@ -10,10 +10,9 @@ class window(QWidget):
         super().__init__()
         self.octSlider = QSlider(Qt.Horizontal, self)
         self.quit = QPushButton("x", self)
-        self.initUi()
+        self.windowUi()
 
-    def initUi(self):
-
+    def windowUi(self):
         self.octSlider.setRange(40, 100)
         self.octSlider.setSingleStep(1)
         self.octSlider.setValue(100)
@@ -23,7 +22,17 @@ class window(QWidget):
         self.show()
 
     def changeOpacityValue(self):
-        self.setWindowOpacity(self.octSlider.value()*0.01)
+        self.setWindowOpacity(self.octSlider.value() * 0.01)
+
+
+class tools(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.toolsUi()
+        self.btnClose = QPushButton('close', self)
+
+    def toolsUi(self):
+        self.btnClose.setStyleSheet()
 
 
 if __name__ == "__main__":
