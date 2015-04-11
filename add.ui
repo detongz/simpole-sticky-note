@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QWidget</class>
+ <widget class="QWidget" name="QWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>314</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加事件</string>
+  </property>
+  <widget class="QLineEdit" name="addEvent">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>381</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>添加事件</string>
+   </property>
+  </widget>
+  <widget class="QDateTimeEdit" name="addDateTime">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>381</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="addDescription">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>381</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>添加详细描述</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Submit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>270</y>
+     <width>95</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <zorder>addDescription</zorder>
+  <zorder>addEvent</zorder>
+  <zorder>addDateTime</zorder>
+  <zorder>Submit</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

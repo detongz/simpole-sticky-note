@@ -9,9 +9,10 @@ def database():
     mydb = conn.stickyNote
 
     myusr = mydb.stickyNote
-    a = myusr.find()
-    # print(a)
-    for mya in a:
-        print(mya)
+    # a = myusr.find()
+    # # print(a)
+    # for mya in a:
+    #     print(mya)
 
 
+# def write():
