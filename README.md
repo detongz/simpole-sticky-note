@@ -2,6 +2,6 @@
 
 ssdut螺丝工作室四月第一次例会展示准备
 
-例会所用[例子地址](https://github.com/ralsina/pyqt-by-example/tree/master/session5)
+[py例子地址](https://github.com/ralsina/pyqt-by-example/tree/master/session5)
 
-[qt继承关系图](http://download.csdn.net/detail/qyy0180/6989373)
+实现日程增删改查功能，要求进行储存（文件，数据库）。
